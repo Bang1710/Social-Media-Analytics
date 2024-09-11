@@ -1,18 +1,16 @@
 ## Social Media Analytics
 ![separator1](https://i.imgur.com/ZUWYTii.png)
-### Project Overview
+### Tổng quan Dự án
+Dự án này tập trung vào việc phân tích dữ liệu từ các nền tảng mạng xã hội để tạo ra một cấu trúc cơ bản của cơ sở dữ liệu dễ dàng kết nối với giao diện frontend. Chúng tôi quản lý dữ liệu từ nhiều người dùng, bao gồm cả thông tin về người theo dõi, sở thích và các hoạt động công khai như lượt thích bài viết, bình luận và các hashtag mà họ theo dõi.
 
-This project focuses on analyzing data from social media platforms to create a basic structure of a database easily connectable to a frontend interface. We manage data from multiple users, including their followers, interests, and public activities like post likes, comments, and hashtags followed.
+Các phân tích khác nhau đã được thực hiện để cung cấp những thông tin giá trị cho việc quản lý và phát triển kinh doanh, bao gồm:
+- Thống kê Người dùng: Liệt kê chi tiết thông tin người dùng, đếm số người đăng ký mỗi năm, sắp xếp người dùng theo thời gian đăng ký và liệt kê những người dùng có email nhưng chưa thiết lập hồ sơ cá nhân.
+- Thống kê Bài viết: Liệt kê các bài viết và số lượng bình luận của chúng, đếm số bài viết được xuất bản mỗi tháng, sắp xếp bài viết theo thời gian tạo, và tính tổng số lượt thích cho mỗi bài viết.
+- Thống kê Bình luận và Lượt thích: Đếm số lượng bình luận và lượt thích cho mỗi bài viết, tính tổng số lượt thích mà mỗi người dùng đã gửi, và liệt kê các bình luận và lượt thích gần đây.
+- Thống kê Hashtag: Đếm số lượng bài viết cho mỗi hashtag, liệt kê các hashtag phổ biến và tính tổng số lượt thích cho các bài viết chứa các hashtag cụ thể.
+- Thống kê Kết nối: Đếm số người theo dõi cho mỗi người dùng, tính tổng số người theo dõi và người mà mỗi người dùng theo dõi, và liệt kê những người dùng có số lượng người theo dõi lớn nhất.
 
-Various analyses have been conducted to provide valuable insights for management and business development, including:
-
-- User Statistics: Listing detailed user information, counting registered users each year, sorting users by registration time, and listing users with email but no profile setup.
-- Post Statistics: Listing posts and their comment counts, counting posts published each month, sorting posts by creation time, and calculating total likes for each post.
-- Comments and Likes Statistics: Counting comments and likes per post, calculating total likes each user gave, and listing recent comments and likes.
-- Hashtag Statistics: Counting posts for each hashtag, listing popular hashtags, and calculating total likes for posts with specific hashtags.
-- Connection Statistics: Counting followers for each user, calculating total followers and followings for each user, and listing users with the largest number of followers.
-
-Additionally, the project includes advanced analyses like user ranking based on the number of posts created, average posts created per day of the week, and listing users with total likes and comments for all their posts.
+Ngoài ra, dự án còn bao gồm các phân tích nâng cao như xếp hạng người dùng dựa trên số lượng bài viết đã tạo, trung bình số bài viết được tạo mỗi ngày trong tuần, và liệt kê người dùng với tổng số lượt thích và bình luận cho tất cả các bài viết của họ.
 ### ERD 
 ![separator](https://github.com/Bang1710/Social-Media-Analytics/blob/main/ERD.png)
 ### Analysis Highlights
